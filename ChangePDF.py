@@ -6,6 +6,7 @@ import re
 from PIL import Image
 from cv2 import dnn_superres
 
+
 # Tesseract 실행 경로 설정
 pytesseract.pytesseract.tesseract_cmd = "/opt/homebrew/bin/tesseract"
 
